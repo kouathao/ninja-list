@@ -1,18 +1,14 @@
 import Head from "next/head";
-import styles from "../styles/Home.module.css";
-
-import Link from "next/link";
-
-const Home = () => {
+const about = () => {
   return (
     <>
       <Head>
-        <title>Ninja List | Home</title>
+        <title>Ninja List | About</title>
         <meta name="keywords" content="ninjas"></meta>
       </Head>
-      <div>
-        <h1 className={styles.title}>Home</h1>
-        <p className={styles.text}>
+      <div className="">
+        <h1>Test</h1>
+        <p>
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry. Lorem Ipsum has been the industry's standard dummy text ever
           since the 1500s, when an unknown printer took a galley of type and
@@ -23,7 +19,7 @@ const Home = () => {
           more recently with desktop publishing software like Aldus PageMaker
           including versions of Lorem Ipsum
         </p>
-        <p className={styles.text}>
+        <p>
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry. Lorem Ipsum has been the industry's standard dummy text ever
           since the 1500s, when an unknown printer took a galley of type and
@@ -34,12 +30,9 @@ const Home = () => {
           more recently with desktop publishing software like Aldus PageMaker
           including versions of Lorem Ipsum
         </p>
-        <Link href="/ninjas">
-          <a className={styles.btn}>See Ninja Listing</a>
-        </Link>
       </div>
     </>
   );
 };
 
-export default Home;
+export default about;
